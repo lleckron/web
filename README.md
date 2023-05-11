@@ -1,6 +1,7 @@
 # GreaterThanEqualTo
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.7.
+This is a fast-paced game testing a user's reaction to seeing two numbers, and discerning whether the left number is Greater Than, Less Than, or Equal To. This application will include multiple modes, custom key mapping, and custom animations and designs.
 
 ## Development server
 
