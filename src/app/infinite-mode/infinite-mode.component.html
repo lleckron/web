@@ -1,0 +1,43 @@
+<div class="lives-container">
+
+    <div class="life-heart">
+        <life-remaining *ngIf="lives >= 1; else elseBlock"></life-remaining>
+        <ng-template #elseBlock>
+            <life-lost></life-lost>
+        </ng-template>
+    </div>
+
+    <div class="life-heart">
+        <life-remaining *ngIf="lives >= 2; else elseBlock"></life-remaining>
+        <ng-template #elseBlock>
+            <life-lost></life-lost>
+        </ng-template>
+    </div>
+
+    <div class="life-heart">
+        <life-remaining *ngIf="lives === 3; else elseBlock"></life-remaining>
+        <ng-template #elseBlock>
+            <life-lost></life-lost>
+        </ng-template>
+    </div>
+
+</div>
+
+<div class="score">
+    <p>Score:</p>
+    <p>{{score}}</p>
+</div>
+
+<generate-numbers class="number-container"></generate-numbers>
+
+<div class="controls-container">
+    <button class="option" id="greater-than">
+        &gt;
+    </button>
+    <button class="option" id="equal-to">
+        =
+    </button>
+    <button class="option" id="less-than">
+        &lt;
+    </button>
+</div>

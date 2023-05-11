@@ -1,0 +1,27 @@
+.modes {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin-top: 30px;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+}
+
+.select-mode {
+    width: 400px;
+    min-height: 75px;
+    max-height: 75px;
+    border: none;
+    border-radius: 6px;
+    box-shadow: 0 0 6px #000;
+    margin-bottom: 15px;
+    background: #ffffff;
+    font-size: 30px;
+}
+
+.select-mode:hover {
+    cursor: pointer;
+    background: #cbcbd4;
+    box-shadow: 0 0 10px #000;
+}

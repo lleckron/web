@@ -1,0 +1,60 @@
+.number-container {
+    display: flex;
+    flex-direction: row;
+    height: 40vh;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.controls-container {
+    display: flex;
+    height: 40vh;
+    justify-content: center;
+}
+
+.option {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 150px;
+    width: 150px;
+    border: none;
+    border-radius: 20px;
+    font-size: 100px;
+    text-align: center;
+}
+
+.option:hover {
+    cursor: pointer;
+    background: #cbcbd4;
+}
+
+#equal-to {
+    margin: 0 25px 0 25px;
+}
+
+.lives-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 25px;
+}
+
+.score {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.score p {
+    color: #ffffff;
+    font-size: 25px;
+}
+
+.score p:first-child {
+    margin-right: 10px;
+}

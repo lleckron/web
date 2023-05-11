@@ -1,0 +1,6 @@
+<div class="modes">
+    <button *ngFor="let mode of modes; let i = index" [attr.data-index]="i" class="select-mode" 
+    attr.id="{{mode.id}}" attr.tabindex="{{i + 1}}" (click)="modeButtonClick(mode.id)">
+        {{mode.name}}
+    </button>
+</div>
